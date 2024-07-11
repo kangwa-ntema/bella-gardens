@@ -1,0 +1,17 @@
+{
+  "name": "bella-gardens",
+  "version": "1.0.0",
+  "description": "bella gardens a website that documents a garden as it is been prepared to become an events garden ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bella",
+    "Gardens",
+    "Events",
+    "Nature"
+  ],
+  "author": "kangwa ntema",
+  "license": "ISC"
+}

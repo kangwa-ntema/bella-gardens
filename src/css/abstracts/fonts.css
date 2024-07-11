@@ -1,0 +1,176 @@
+
+/* CINZEL FONTS */
+@font-face {
+    font-family: "cinzel-black";
+    src: url("../../assets/fonts/Cinzel/static/Cinzel-Black.ttf");
+}
+
+@font-face {
+    font-family: "cinzel-bold";
+    src: url("../../assets/fonts/Cinzel/static/Cinzel-Bold.ttf");
+}
+
+@font-face {
+    font-family: "cinzel-extrabold";
+    src: url("../../assets/fonts/Cinzel/static/Cinzel-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "cinzel-medium";
+    src: url("../../assets/fonts/Cinzel/static/Cinzel-Medium.ttf");
+}
+
+@font-face {
+    font-family: "cinzel-regular";
+    src: url("../../assets/fonts/Cinzel/static/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: "cinzel-semibold";
+    src: url("../../assets/fonts/Cinzel/static/Cinzel-SemiBold.ttf");
+}
+
+
+/* CRIMSON TEXT FONTS */
+@font-face {
+    font-family: "crimson-text-bold";
+    src: url("../../assets/fonts/Crimson_Text/CrimsonText-Bold.ttf");
+}
+
+@font-face {
+    font-family: "crimson-text-bold-italic";
+    src: url("../../assets/fonts/Crimson_Text/CrimsonText-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "crimson-text-italic";
+    src: url("../../assets/fonts/Crimson_Text/CrimsonText-Italic.ttf");
+}
+
+@font-face {
+    font-family: "crimson-text-regular";
+    src: url("../../assets/fonts/Crimson_Text/CrimsonText-Regular.ttf");
+}
+
+@font-face {
+    font-family: "crimson-text-semi-bold";
+    src: url("../../assets/fonts/Crimson_Text/CrimsonText-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "crimson-text-semi-bold-italic";
+    src: url("../../assets/fonts/Crimson_Text/CrimsonText-SemiBoldItalic.ttf");
+}
+
+
+/* DANCING SCRIPT FONT */
+
+
+@font-face {
+    font-family: "dancing-script-bold";
+    src: url("../../assets/fonts/Dancing_Script/static/DancingScript-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: "dancing-script-medium";
+    src: url("../../assets/fonts/Dancing_Script/static/DancingScript-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: "dancing-script-regular";
+    src: url("../../assets/fonts/Dancing_Script/static/DancingScript-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "dancing-script-semi-bold";
+    src: url("../../assets/fonts/Dancing_Script/static/DancingScript-SemiBold.ttf");
+}
+
+
+
+/* BARLOW CONDENSED */
+
+@font-face {
+    font-family: "barlow-condensed-black";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-black-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-bold";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-bold-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-extra-bold";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-extra-bold-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-extra-light";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-extra-light-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-Italic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-medium";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-medium-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-regular";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-semi-bold";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-semi-bold-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-thin";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-Thin.ttf");
+}
+
+@font-face {
+    font-family: "barlow-condensed-thin-italic";
+    src: url("../../assets/fonts/Barlow_Condensed/BarlowCondensed-ThinItalic.ttf");
+}
+
+

@@ -1,0 +1,115 @@
+@import "./abstracts/fonts.css";
+@import "./abstracts/colors.css";
+@import "./base/resets.css";
+
+:root{
+    --max-width-xsm: 576px;
+    --max-width-sm: 576px;
+    --max-width-md: 768px;
+    --max-width-lg: 922px;
+    --max-width-xl: 1200px;
+}
+
+body {
+  background-color: var(--clr-pixie-green);
+  font-family: "crimson-text-regular";
+}
+
+/* APP STYLES */
+
+.headerContainer {
+  background-color: var(--clr-copper-canyon);
+}
+
+.header {
+  max-width: var(--max-width-md);
+  color: var(--clr-neutral-700);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.primaryLogo {
+  font-family: "cinzel-extrabold";
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.primaryLogo .secWord {
+  color: var(--clr-sepia-black);
+}
+
+.primaryNavItem {
+  display: flex;
+  gap: 3vw;
+}
+
+.primaryNavLink {
+  color: var(--clr-neutral-700);
+  font-size: 1.3em;
+  font-family: "barlow-condensed-regular";
+  transition: color ease-in-out 0.2s;
+}
+
+.primaryNavLink:hover {
+  color: var(--clr-sepia-black);
+}
+
+.homeHeroContainer {
+  background-image: linear-gradient(45deg,
+    var(--clr-pixie-green),
+    var(--clr-copper-canyon)
+  );
+  height: 25rem;
+}
+
+.homeHero {
+/*   background-image: url("../assets/img/hero-bg-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply; */
+}
+
+.main{
+  height: 100vh;    
+}
+
+
+
+.footerContainer{
+    background-color: var(--clr-sepia-black);
+    color: var(--clr-neutral-700);
+}
+
+.footer{
+  max-width: var(--max-width-md);
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footerLogo{
+    font-family: "dancing-script-medium";
+    font-size: 4em;
+  }
+
+  .footerNavItem {
+    display: flex;
+    gap: 3vw;
+  }
+
+  .footerNavLink {
+    color: var(--clr-neutral-700);
+    font-size: 1.3em;
+    font-family: "barlow-condensed-regular";
+    transition: color ease-in-out 0.2s;
+  }
+  
+  .footerNavLink:hover {
+    color: var(--clr-copper-canyon);
+  }
