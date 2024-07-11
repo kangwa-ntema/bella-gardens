@@ -96,6 +96,8 @@ body {
 .footerLogo{
     font-family: "dancing-script-medium";
     font-size: 4em;
+    display: flex;
+    gap: 0;
   }
 
   .footerNavItem {
