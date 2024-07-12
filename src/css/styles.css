@@ -12,7 +12,8 @@
 
 body {
   background-color: var(--clr-pixie-green);
-  font-family: "crimson-text-regular";
+  font-family: "barlow-condensed-regular";
+
 }
 
 /* APP STYLES */
@@ -37,6 +38,10 @@ body {
   line-height: 1;
 }
 
+.primaryLogo .firstWord {
+  color: var(--clr-pixie-green);
+}
+
 .primaryLogo .secWord {
   color: var(--clr-sepia-black);
 }
@@ -47,7 +52,7 @@ body {
 }
 
 .primaryNavLink {
-  color: var(--clr-neutral-700);
+  color: var(--clr-pixie-green);
   font-size: 1.3em;
   font-family: "barlow-condensed-regular";
   transition: color ease-in-out 0.2s;
@@ -62,7 +67,41 @@ body {
     var(--clr-pixie-green),
     var(--clr-copper-canyon)
   );
-  height: 25rem;
+  padding: 5rem 1rem 1rem;
+}
+
+.homeHero{
+  background-image: url("../assets/img/hero-bg-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* display: flex;
+  flex-direction: column;
+  gap: 2rem; */
+  max-width: var(--max-width-md);
+  margin: 0 auto;
+}
+
+
+.homeHeroInfoContainer{
+  padding: 15rem 1rem 2rem;
+  background-image:linear-gradient( rgba(122, 157, 40, 0.212), rgb(28, 28, 28));
+  color: var(--clr-pixie-green);
+}
+
+.homeHeroInfo{
+  max-width: 30rem;
+}
+
+.homeHeroImg{
+
+}
+
+.homeHeroTitle{
+  font-size: clamp(2em, 3.5vw, 4em);
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-family: "Cinzel";
 }
 
 .homeHero {
@@ -73,14 +112,15 @@ body {
 }
 
 .main{
-  height: 100vh;    
+
 }
+
 
 
 
 .footerContainer{
     background-color: var(--clr-sepia-black);
-    color: var(--clr-neutral-700);
+  color: var(--clr-pixie-green);
 }
 
 .footer{
@@ -106,12 +146,21 @@ body {
   }
 
   .footerNavLink {
-    color: var(--clr-neutral-700);
     font-size: 1.3em;
     font-family: "barlow-condensed-regular";
     transition: color ease-in-out 0.2s;
+  color: var(--clr-neutral-700);
+
   }
   
   .footerNavLink:hover {
     color: var(--clr-copper-canyon);
+  }
+
+  .footerLogo .firstWord a {
+    color: var(--clr-pixie-green);
+  }
+  
+  .footerLogo .secWord a{
+    color: var(--clr-sepia-black);
   }

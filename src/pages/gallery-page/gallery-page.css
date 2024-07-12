@@ -1,0 +1,33 @@
+
+
+.main{
+    max-width: var(--max-width-md);
+    margin: 0 auto;
+}
+
+.plantsGalleryContainer{
+}
+
+.plantsGalleryHero{
+    padding: 10rem 1rem 5rem;
+}
+
+.plantsGalleryTitle{
+    font-size: clamp(4em, 5vw, 5.5em);
+    font-family: "cinzel-extrabold";
+
+}
+
+.plantsGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-auto-rows: 25rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.plantImg {
+  width: 10rem;
+  min-height: 10rem;
+  
+}
