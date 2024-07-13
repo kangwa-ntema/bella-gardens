@@ -8,6 +8,8 @@
     --max-width-md: 768px;
     --max-width-lg: 922px;
     --max-width-xl: 1200px;
+
+    --fs-page-hero-title: clamp(3em, 6vw, 6.5em);
 }
 
 body {

@@ -4,7 +4,7 @@
 }
 
 .aboutTitle{
-    font-size: clamp(4em, 5vw, 5.5em);
+    font-size: var(--fs-page-hero-title);
     font-family: "cinzel-extrabold";
 }
 
