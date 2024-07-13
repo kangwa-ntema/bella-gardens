@@ -1,0 +1,13 @@
+.main{
+    max-width: var(--max-width-md);
+    margin: 0 auto;
+}
+
+.blogsTitle{
+    font-size: clamp(4em, 5vw, 5.5em);
+    font-family: "cinzel-extrabold";
+}
+
+.blogsHero{
+    padding: 10rem 1rem 5rem;
+}
