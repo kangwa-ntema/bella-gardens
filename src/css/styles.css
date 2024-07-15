@@ -14,7 +14,6 @@
 
 body {
   font-family: "barlow-condensed-regular";
-
 }
 
 /* APP STYLES */
@@ -59,7 +58,13 @@ body {
   transition: color ease-in-out 0.2s;
 }
 
-.primaryNavLink:hover {
+.primaryNavLink.active {
+  color: var(--clr-sepia-black);
+
+}
+
+.primaryNavLink:hover,
+  .primaryNavLink:focus {
   color: var(--clr-sepia-black);
 }
 
@@ -117,7 +122,29 @@ body {
 }
 
 
+.plantFactsSection{
+  padding: 4rem 1rem;
+}
 
+.plantsFactsContainer{
+  max-width: var(--max-width-md);
+  margin: 0 auto;
+}
+
+.plantFactsTitle{
+  font-family: "cinzel-extrabold";
+  font-size: clamp(2em, 3vw, 4em);
+}
+
+.plantFactsSubtitle{
+  font-size: clamp(1.5em, 2vw, 3em);
+  margin: 1rem 0 .5rem;
+  
+}
+
+.plantFacts{
+  padding: 0 1rem;
+}
 
 .footerContainer{
     background-color: var(--clr-sepia-black);

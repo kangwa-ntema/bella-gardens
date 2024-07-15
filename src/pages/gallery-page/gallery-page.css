@@ -6,6 +6,12 @@
 }
 
 .plantsGalleryContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-auto-rows: 25rem;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: space-evenly;
 }
 
 .plantsGalleryHero{
@@ -18,15 +24,19 @@
 }
 
 .plantsGallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  grid-auto-rows: 25rem;
-  gap: 1rem;
-  padding: 1rem;
+
 }
 
 .plantImg {
   width: 10rem;
   min-height: 10rem;
-  
+  border-radius: .1rem;
+  box-shadow: .1rem .1rem .5rem .3rem rgba(0, 0, 0, 0.089);
+  padding: .5rem .3rem;
+  margin: 0 auto;
+
+}
+
+.plantImg .plantInfo{
+  font-size: .8em;
 }
