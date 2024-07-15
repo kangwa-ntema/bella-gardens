@@ -120,7 +120,6 @@ body {
 .gardenOwnerProfileSection {
   margin-top: 4rem;
   background-color: var(--clr-pixie-green);
-
 }
 
 .gardenOwnerProfileContainer {
@@ -139,7 +138,7 @@ body {
 }
 
 .gardenOwnerImg {
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
 
 .plantFactsSection {
