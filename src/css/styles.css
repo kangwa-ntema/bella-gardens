@@ -2,14 +2,14 @@
 @import "./abstracts/colors.css";
 @import "./base/resets.css";
 
-:root{
-    --max-width-xsm: 576px;
-    --max-width-sm: 576px;
-    --max-width-md: 768px;
-    --max-width-lg: 922px;
-    --max-width-xl: 1200px;
+:root {
+  --max-width-xsm: 576px;
+  --max-width-sm: 576px;
+  --max-width-md: 768px;
+  --max-width-lg: 922px;
+  --max-width-xl: 1200px;
 
-    --fs-page-hero-title: clamp(3em, 6vw, 6.5em);
+  --fs-page-hero-title: clamp(3em, 6vw, 6.5em);
 }
 
 body {
@@ -60,11 +60,10 @@ body {
 
 .primaryNavLink.active {
   color: var(--clr-sepia-black);
-
 }
 
 .primaryNavLink:hover,
-  .primaryNavLink:focus {
+.primaryNavLink:focus {
   color: var(--clr-sepia-black);
 }
 
@@ -76,7 +75,7 @@ body {
   padding: 5rem 1rem 1rem;
 }
 
-.homeHero{
+.homeHero {
   background-image: url("../assets/img/hero-bg-img.jpg");
   background-size: cover;
   background-position: center;
@@ -88,22 +87,20 @@ body {
   margin: 0 auto;
 }
 
-
-.homeHeroInfoContainer{
+.homeHeroInfoContainer {
   padding: 15rem 1rem 2rem;
-  background-image:linear-gradient( rgba(122, 157, 40, 0.212), rgb(28, 28, 28));
+  background-image: linear-gradient(rgba(122, 157, 40, 0.212), rgb(28, 28, 28));
   color: var(--clr-pixie-green);
 }
 
-.homeHeroInfo{
+.homeHeroInfo {
   max-width: 30rem;
 }
 
-.homeHeroImg{
-
+.homeHeroImg {
 }
 
-.homeHeroTitle{
+.homeHeroTitle {
   font-size: clamp(2em, 3.5vw, 4em);
   line-height: 1;
   margin-bottom: 1rem;
@@ -111,81 +108,107 @@ body {
 }
 
 .homeHero {
-/*   background-image: url("../assets/img/hero-bg-img.jpg");
+  /*   background-image: url("../assets/img/hero-bg-img.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply; */
 }
 
-.main{
+.main {
+}
+
+.gardenOwnerProfileSection {
+  margin-top: 4rem;
+  background-color: var(--clr-pixie-green);
 
 }
 
-
-.plantFactsSection{
-  padding: 4rem 1rem;
-}
-
-.plantsFactsContainer{
+.gardenOwnerProfileContainer {
+  padding: 2rem 1rem;
   max-width: var(--max-width-md);
   margin: 0 auto;
 }
 
-.plantFactsTitle{
+.gardenOwnerProfile {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 1rem;
+}
+
+.gardenOwnerImgContainer {
+}
+
+.gardenOwnerImg {
+  border-radius: .2rem;
+}
+
+.plantFactsSection {
+  padding: 4rem 1rem;
+}
+
+.plantsFactsContainer {
+  max-width: var(--max-width-md);
+  margin: 0 auto;
+}
+
+.plantFactsTitle {
   font-family: "cinzel-extrabold";
   font-size: clamp(2em, 3vw, 4em);
 }
 
-.plantFactsSubtitle{
+.plantFactsSubtitle {
   font-size: clamp(1.5em, 2vw, 3em);
-  margin: 1rem 0 .5rem;
-  
+  margin: 1rem 0 0.5rem;
 }
 
-.plantFacts{
+.plantFacts {
   padding: 0 1rem;
 }
 
-.footerContainer{
-    background-color: var(--clr-sepia-black);
+.footerContainer {
+  background-color: var(--clr-sepia-black);
   color: var(--clr-pixie-green);
 }
 
-.footer{
+.footer {
   max-width: var(--max-width-md);
-    margin: 0 auto;
-    padding: 4rem 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footerLogo{
-    font-family: "dancing-script-medium";
-    font-size: 4em;
-    display: flex;
-    gap: 0;
-  }
+.footerLogo {
+  font-family: "dancing-script-medium";
+  font-size: 4em;
+  display: flex;
+  gap: 0;
+}
 
-  .footerNavItem {
-    display: flex;
-    gap: 3vw;
-  }
+.footerNavItem {
+  display: flex;
+  gap: 3vw;
+}
 
-  .footerNavLink {
-    font-size: 1.3em;
-    font-family: "barlow-condensed-regular";
-    transition: color ease-in-out 0.2s;
+.footerNavLink {
+  font-size: 1.3em;
+  font-family: "barlow-condensed-regular";
+  transition: color ease-in-out 0.2s;
   color: var(--clr-neutral-700);
+}
 
-  }
-  
-  .footerNavLink:hover {
-    color: var(--clr-copper-canyon);
-  }
+.footerNavLink:hover {
+  color: var(--clr-copper-canyon);
+}
 
-  .footerLogo .firstWord,
-  .footerLogo .secWord {
-    color: var(--clr-pixie-green);
-  }
+.footerLogo .firstWord,
+.footerLogo .secWord {
+  color: var(--clr-pixie-green);
+}
+
+.websiteAuthorContainer {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 0.7em;
+}
