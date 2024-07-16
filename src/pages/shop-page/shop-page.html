@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../../css/styles.css" />
-    <link rel="stylesheet" href="./about-page.css" />
+    <link rel="stylesheet" href="./shop-page.css">
   </head>
   <body>
     <header class="headerContainer">
@@ -19,21 +19,17 @@
           <ul role="list" class="primaryNavList">
             <li class="primaryNavItem">
               <a href="../gallery-page/gallery-page.html" class="primaryNavLink"
-                >Gallery</a
-              >
+                >Gallery</a>
             </li>
             <li class="primaryNavItem">
-              <a href="#" class="primaryNavLink"
-                >About</a
-              >
+              <a href="../about-page/about-page.html" class="primaryNavLink"
+                >About</a>
             </li>
             <li class="primaryNavItem">
               <a href="../blogs-page/blogs-page.html" class="primaryNavLink">Blogs</a>
             </li>
             <li class="primaryNavItem">
-              <a href="../shop-page/shop-page.html" class="primaryNavLink"
-                >Shop</a
-              >
+              <a href="#" class="primaryNavLink">Shop</a>
             </li>
           </ul>
         </nav>
@@ -41,40 +37,27 @@
     </header>
 
     <main class="main">
-      <section class="aboutHeroContainer">
-        <div class="aboutHero">
-          <div class="aboutTitle">About Us</div>
+      <div class="shopHeroContainer">
+        <div class="shopHero">
+          <h1 class="shopHeroTitle">Shop</h1>
+          <div class="shopHeroInfoContainer">
+            <div class="shopHeroInfo">
+              <h2 class="shopHeroInfoIntro"></h2>
+            </div>
+          </div>
+
         </div>
+      </div>
       </section>
-      <section class="aboutPageSection">
-        <div class="aboutPageIntroductionContainer">
-          <p class="aboutPageIntroduction">
-            This website is a testament to the beauty and bounty of our
-            flourishing garden. here we chronicle the changing seasons,
-            celebrate the diversity of plant life, and share the joy of
-            cultivating a thriving ecosystem.
-          </p>
-          <p class="aboutPageDetails paraOne">
-            Our aim is to provide a resource for gardeners of all levels,
-            offering practical guides, helpful tips, and inspiring ideas to
-            bring your own garden dreams to life.
-          </p>
-          <p class="aboutPageDetails paraOne">
-            Not only do we grow flowers but we have a garden meant to grow food
-            for home consumption.
-          </p>
-        </div>
-      </section>
+      
     </main>
 
     <footer class="footerContainer">
       <div class="footer">
-        <div>
-          <a href="../../../index.html" class="footerLogo">
-            <span class="firstWord">B</span>
-            <span class="secWord">G</span>
-          </a>
-        </div>
+        <a href="#" class="footerLogo">
+          <span class="firstWord">B</span>
+          <span class="secWord">G</span>
+        </a>
         <nav class="footerNav">
           <ul role="list" class="footerNavList">
             <li class="footerNavItem">
@@ -86,7 +69,7 @@
             </li>
             <li class="footerNavItem">
               <a
-                href="#"
+                href="../about-page/about-page.html"
                 class="footerNavLink"
                 >About</a
               >
@@ -100,7 +83,7 @@
             </li>
             <li class="footerNavItem">
               <a
-                href="../shop-page/shop-page.html"
+                href="#"
                 class="footerNavLink"
                 >Shop</a
               >
@@ -117,6 +100,7 @@
         </p>
       </div>
     </footer>
-    <script src="../../js/script.js"></script>
+
+    <script src="./src/js/script.js" type="module"></script>
   </body>
 </html>

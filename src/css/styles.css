@@ -46,7 +46,7 @@ body {
   color: var(--clr-sepia-black);
 }
 
-.primaryNavItem {
+.primaryNavList {
   display: flex;
   gap: 3vw;
 }
@@ -185,7 +185,7 @@ body {
   gap: 0;
 }
 
-.footerNavItem {
+.footerNavList {
   display: flex;
   gap: 3vw;
 }
